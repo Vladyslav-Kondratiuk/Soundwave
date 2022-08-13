@@ -1,4 +1,4 @@
-package com.soundwave.mylibrary
+package com.soundwave.shared
 
 import org.junit.Test
 

@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/activity_main.xml" value="0.12962962962962962" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/font/regular.xml" value="0.396875" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_main.xml" value="0.8" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
       </map>
     </option>
   </component>

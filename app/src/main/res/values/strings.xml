@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Soundwave</string>
+    <string name="loading">LOADING</string>
 </resources>
