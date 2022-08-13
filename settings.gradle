@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Soundwave"
 include ':app'
+include ':data'
+include ':shared'
