@@ -5,10 +5,11 @@
       <map>
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/drawable/selector_search.xml" value="0.2135" />
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/font/regular.xml" value="0.396875" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout-v28/fragment_search.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_main.xml" value="0.1" />
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_music.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_search.xml" value="0.18" />
+        <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_search.xml" value="0.25" />
         <entry key="..\:/Users/vladyslav.kondratiuk/Vlad Kondratiuk/Projects/Soundwave/app/src/main/res/layout/fragment_splash.xml" value="0.1" />
       </map>
     </option>

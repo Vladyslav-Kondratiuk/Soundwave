@@ -1,54 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background="@color/black">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginBottom="32dp"
-        android:paddingBottom="16dp"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:lottie_autoPlay="true"
-        app:lottie_colorFilter="@color/blue"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/anim_wave"
-        app:lottie_speed="0.3" />
+        android:layout_height="match_parent">
 
-    <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/lottieAnimationView2"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:layout_marginBottom="32dp"
-        android:elevation="50dp"
-        android:paddingBottom="16dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:lottie_autoPlay="true"
-        app:lottie_colorFilter="@color/blue"
-        app:lottie_loop="true"
-        app:lottie_rawRes="@raw/anim_circle"
-        app:lottie_speed="0.5" />
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-    <ImageView
-        android:id="@+id/ivProducer"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
-        android:elevation="51dp"
-        android:visibility="gone"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+            <TextView
+                android:id="@+id/btnDetails"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/arrow"
+                android:visibility="gone"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:layout_marginBottom="32dp"
+                android:paddingBottom="16dp"
+                android:visibility="visible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/blue"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/anim_wave"
+                app:lottie_speed="0.3"
+                tools:visibility="gone" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/lottieAnimationView2"
+                android:layout_width="match_parent"
+                android:layout_height="400dp"
+                android:visibility="gone"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:lottie_autoPlay="true"
+                app:lottie_colorFilter="@color/blue"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/anim_circle"
+                app:lottie_speed="0.5"
+                tools:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ivProducer"
+                android:layout_width="230dp"
+                android:layout_height="230dp"
+                android:elevation="1dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="@+id/lottieAnimationView2"
+                app:layout_constraintEnd_toEndOf="@+id/lottieAnimationView2"
+                app:layout_constraintStart_toStartOf="@+id/lottieAnimationView2"
+                app:layout_constraintTop_toTopOf="@+id/lottieAnimationView2"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray"
+                android:elevation="500dp"
+                android:fontFamily="@font/regular"
+                android:padding="32dp"
+                android:text="Suicideboys is an American hip hop duo from New Orleans, Louisiana,[8] founded in 2014 by cousins Ruby da Cherry and Scrim. Via the music sharing platform SoundCloud, the duo rose to popularity for their abrasive, self-produced beats, as well as their harsh lyrical content and themes prominently featuring substance use disorder and suicidal ideation. They own and operate their own label, G*59 Records, under which all of their music is distributed by Virgin Music Label Artist Services.[9] The duo are considered one of the most popular acts in the underground rap scene, and are also considered to have a cult following.[10] After several years of solely releasing EPs and mixtapes, Suicideboys' debut studio album I Want to Die in New Orleans was released on September 7, 2018. It fared well commercially, becoming their first top-ten album on the US Billboard 200.[11] In May 2019, they released their collaborative six-track EP with Blink-182 drummer Travis Barker entitled Live Fast, Die Whenever, which also featured Korn guitarist James Shaffer."
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView2"
+                tools:visibility="visible"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+</LinearLayout>
